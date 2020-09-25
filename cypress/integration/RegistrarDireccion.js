@@ -13,11 +13,13 @@ describe('Agregar dirección a un usuario que se encuentre registrado en el port
             .then(({ user, password }) => {
                 cy.log(user);
                 cy.login({ user, password });
-               // cy.wait('@loginRequesT');
+                // cy.wait('@loginRequesT');
                 cy.url().should('include', 'my-account');
                 cy.get('#SubmitLogin > span').click();
                 cy.get('[title="View my customer account"]')
                     .type('Elvis Miguel Mieles Guarin');
+
             });
     });
-})
+
+});

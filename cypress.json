@@ -1,5 +1,7 @@
 {
-    "baseUrl":"http://automationpractice.com/index.php",
-    "viewportWidth": 414,
-    "viewportHeight": 738
+  "baseUrl": "http://automationpractice.com/index.php",
+  "viewportWidth": 414,
+  "viewportHeight": 738,
+  "projectId": "cta4jg"
+  
 }

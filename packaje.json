@@ -1,0 +1,12 @@
+{
+    "name": "Learning-Cypress",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "open": "./node_modules/.bin/cypress open",
+        "run": "./node_modules/.bin/cypress run",
+        "record": "./node_modules/.bin/cypress run --record --key 92953ba9-aa9c-4262-84c9-0388a1d314a6"
+    },
+    "keywords":[],
+    "author": "Elvis M Mieles G"
+}
